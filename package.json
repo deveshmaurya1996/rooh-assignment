@@ -1,0 +1,24 @@
+{
+  "name": "rooh-ingest-poc",
+  "version": "1.0.0",
+  "private": true,
+  "description": "POC: extract growth experiences from HTML, validate, and ingest into Strapi for review",
+  "scripts": {
+    "ingest": "ts-node src/ingest.ts",
+    "check": "ts-node src/check.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "dotenv": "^17.4.2",
+    "openai": "^7.5.0",
+    "zod": "^4.4.3"
+  },
+  "devDependencies": {
+    "@types/node": "^26.3.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3"
+  }
+}

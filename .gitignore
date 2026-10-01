@@ -1,0 +1,6 @@
+node_modules/
+dist/
+.env
+*.log
+cms/
+docs/demo.mp4
